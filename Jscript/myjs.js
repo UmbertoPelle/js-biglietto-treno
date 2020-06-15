@@ -9,7 +9,7 @@ if (isNaN(kmDaPercorrere)) {
 
 // e l’età del passeggero
 var etaCliente = parseInt(prompt ("Inseriamo la tua età:" ), 10);
-if (isNaN(kmDaPercorrere)) {
+if (isNaN(etaCliente)) {
  etaCliente = parseInt(prompt ("Il dato inserito non è valido, riprovare:"), 10);
 }
 
