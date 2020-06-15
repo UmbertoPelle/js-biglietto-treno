@@ -1,0 +1,13 @@
+body{
+  background-image: url("https://i.pinimg.com/originals/5d/cd/f4/5dcdf44f8c66cd48ed93d9022e5d6227.jpg");
+  color: white;
+  text-align: center;
+}
+
+
+#scontato{
+  text-decoration: underline;
+}
+#scontato:hover{
+  transform: scale(1.3);
+}
