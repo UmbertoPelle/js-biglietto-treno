@@ -2,13 +2,14 @@ var bigliettoScontato;
 
 //chilometri che vuole percorrere
 var kmDaPercorrere = parseInt(prompt ("Per iniziare il viaggio dovrai dirmi quanti km dobbiamo percorrere:"), 10);
-console.log(kmDaPercorrere);
+// controllo che il dato inserito è un numero
 if (isNaN(kmDaPercorrere)) {
  kmDaPercorrere = parseInt(prompt ("Il dato inserito non è valido, riprovare:"), 10);
 }
 
 // e l’età del passeggero
 var etaCliente = parseInt(prompt ("Inseriamo la tua età:" ), 10);
+// controllo che il dato inserito è un numero
 if (isNaN(etaCliente)) {
  etaCliente = parseInt(prompt ("Il dato inserito non è valido, riprovare:"), 10);
 }
@@ -27,4 +28,5 @@ if (etaCliente < 18) {
   document.getElementById('scontato').innerHTML=("Ma vista la tua età il prezzo in realtà è: " + bigliettoScontato +"€")
 }
 
+// stampa prezzo biglietto
 document.getElementById('costo-biglietto').innerHTML=("Il costo del tuo biglietto è: " + costoBiglietto +"€")
